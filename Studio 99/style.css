@@ -1,0 +1,108 @@
+/* Body */
+body {
+	font-family: calibri, arial, helvetica, sans-seriff; /* tries 1st, then 2nd, etc until one works */
+	font-size: 12pt; /* px, em, pt , % */
+	color: black;
+}
+
+/* Paragraph */
+p{
+	margin-left:40px;
+}
+
+/* Headers */
+h1{
+	color: white;
+	background-color: rgb(112,112,112);
+	text-transform: uppercase;
+	text-align: center; 
+	border: 6px solid white;
+}
+
+h2{
+	color: white;
+	background-color: rgb(142,142,142);
+	text-transform: uppercase;
+	text-align: center;
+	border: 5px solid white;
+}
+
+h3{
+	color: white;
+	background-color: rgb(162,162,162);
+	text-transform: uppercase;
+	text-align: center;
+	border: 4px solid white;
+}
+
+h4{
+	color: white;
+	background-color: rgb(182,182,182);
+	text-transform: uppercase;
+	text-align: center; 
+	border: 3px solid white;
+}
+
+h5{
+	color: white;
+	background-color: rgb(202,202,202);
+	text-transform: uppercase;
+	text-align: center; 
+	border: 2px solid white;
+}
+
+h6{
+	color: white;
+	background-color: rgb(222,222,222);
+	text-transform: uppercase;
+	text-align: center; 
+	border: 1px solid white;
+}
+
+
+ /* Table */
+thead {
+	background-color: rgb(130,130,130);
+	color: white;
+}
+
+tbody {
+	background-color: rgb(200,200,200);
+}
+
+caption {
+     caption-side: bottom;
+} 
+
+/* Form */
+form {
+	background-color: rgb(215,215,215);
+}
+
+/* Image */
+img {
+	margin-left: 40px;
+	border: 5px solid white;
+}
+
+.neighborTextAreas{
+    width:100%;    
+}
+.neighborTextAreas div{
+    float:left;
+    width:49.8%;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.neighborTextAreas div span{
+    display:block;
+}
+
+.neighborTextAreas div textarea{
+    box-sizing: border-box;
+    background-color: rgb(252,252,252);
+    width:100%;
+    border:1px solid rgb(230,230,230);
+    min-height:150px;
+}
