@@ -1,3 +1,4 @@
+// Copyright Ryan LaRouche 2017
 // Special characters: ' "
 
 function getInput(){
@@ -23,14 +24,14 @@ function processInput(input){
 		specialCharMode = checkForSpecialChars(specialCharMode, input[i], output);
 		
 		if (specialCharMode == "sameword") {
-			output += input[i];
+			output += "\n" + input[i] + "\n";
 			specialCharMode = false;
 		}
 		
 		// If special char true, print every word (like a print statement)
 		if ((specialCharMode == true) || (modelastword != specialCharMode)){
 				if ((specialCharMode == true) && (modelastword != specialCharMode)){
-					output += "\n"
+					output += "\n";
 				}
 				if ((modelastword == specialCharMode) || (specialCharMode == false)){
 					output += " "; // Must add a space between words if more print statement is more than one word
