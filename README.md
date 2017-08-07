@@ -12,11 +12,19 @@ Process:
 
 Support commands at initial GitHub release:
 	- New .. [ Part, String / StringValue, Int / IntValue]
+	
 		- .. Name
+		
 		- .. Value
+		
 		- EXAMPLE : Create a new part named Brick
+		
 			Create a new string named Artist with value BobMarley
+			
 	- NOTE: Unsupported syntax or words will be ignored
+	
   - Special characters: ' "
+  
       Using " or ' starts and closes a print statement that outputs the contents between open/closing quotation/brackets.
+      
           EXAMPLE: "Hello world" prints, "Hello world" in the Console
