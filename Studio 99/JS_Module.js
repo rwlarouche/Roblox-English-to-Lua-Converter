@@ -1,3 +1,4 @@
+// [Roblox] English to Lua Converter
 // Copyright Ryan LaRouche 2017
 // Special characters: ' "
 
